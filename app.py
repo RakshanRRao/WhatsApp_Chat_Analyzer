@@ -82,3 +82,15 @@ if uploaded_file is not None:
                        labels=emoji_df['emoji'].head(),
                        autopct="%0.2f")
                 st.pyplot(fig)
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 👨‍💻 Developed by")
+st.sidebar.markdown("**Rakshan R Rao**")
+st.sidebar.markdown("[GitHub Profile](https://github.com/RakshanRRao)")
+st.markdown("---")
+st.markdown("### 👨‍💻 Developed by Rakshan R Rao")
+st.markdown(
+    """
+    🔗 [GitHub](https://github.com/RakshanRRao)  
+    📊 WhatsApp Chat Analyzer built using Python, Pandas & Streamlit
+    """
+)
