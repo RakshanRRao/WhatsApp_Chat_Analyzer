@@ -4,6 +4,14 @@ import seaborn as sns
 import preprocessor
 import helper
 
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #0e1117;
+            color: #fafafa;
+        }
+    </style>
+""", unsafe_allow_html=True)
 st.set_page_config(layout="wide")
 
 st.title("📊 WhatsApp Chat Analyzer")
