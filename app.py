@@ -4,6 +4,8 @@ import seaborn as sns
 import preprocessor
 import helper
 
+st.set_page_config(layout="wide")
+
 st.markdown("""
     <style>
         .stApp {
@@ -12,11 +14,10 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-st.set_page_config(layout="wide")
 
 st.title("📊 WhatsApp Chat Analyzer")
 
-uploaded_file = st.file_uploader("Upload WhatsApp Chat (.txt)")
+uploaded_file = st.sidebar.file_uploader("Upload WhatsApp Chat (.txt)")
 
 if uploaded_file is not None:
 
