@@ -1,6 +1,6 @@
 # 📊 WhatsApp Chat Analyzer
 
-🔗 Live App: [https://rakshan-whatsappchatanalyzer.streamlit.app/](https://rakshan-wca.streamlit.app/)
+🔗 Live App: https://rakshan-wca.streamlit.app/
 
 A Streamlit-based web application to analyze WhatsApp chat exports and generate interactive insights.
 
